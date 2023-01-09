@@ -1,8 +1,17 @@
 const search = document.getElementById("text"); 
 let isSearching = false; 
+let temp;
 search.addEventListener("click", function(){
 search.innerHTML = "";
 isSearching = true; 
+});
+window.addEventListener("click", function(e){
+temp = e.target.id;
+if(temp != "text"){
+    search.innerHTML = "Search";
+    console.log(temp); 
+    isSearching = false; 
+}
 });
 window.addEventListener("keydown",function(e){
     if(isSearching){
