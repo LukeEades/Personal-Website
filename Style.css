@@ -83,3 +83,13 @@ main{
     width: 50rem;
     background-color: rgb(222, 222, 222);
 }
+footer{
+    position: fixed;
+    width: 100vw; 
+    height: 5vh;
+    background-color: rgb(222, 219, 219);
+    bottom:0rem;
+    text-align: center;
+    font-family: sans-serif;
+    border-top: solid 1px rgb(230, 228, 228);
+}
