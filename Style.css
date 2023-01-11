@@ -39,11 +39,29 @@ main{
     margin-top:5vh;
 }
 .card{
+    display: flex;
+    flex-direction: row;
     border-radius: 25px; 
     margin: 20px;
     height: 20rem;
     width: 50rem;
     background-color: rgb(16, 16, 16);
+}
+.info{
+    color:rgb(80, 78, 78);
+    font-family:'Trebuchet MS';
+    margin: 1rem;
+}
+.title{
+    color:rgb(80, 78, 78);
+    font-family:'Trebuchet MS';
+    margin: 1rem;
+}
+.pictures{
+    height: 20rem;
+    width: 20rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 footer{
     color:white;
