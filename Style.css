@@ -31,7 +31,9 @@ main{
     display: flex;
     justify-content: space-around;
 }
-
+.Languages{
+    display: flex;
+}
 .middle{
     display: flex;
     flex-direction: column;
@@ -46,6 +48,17 @@ main{
     height: 20rem;
     width: 50rem;
     background-color: rgb(16, 16, 16);
+}
+#Javascript{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100px;
+}
+#Java{
+    grid-area: footer;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100px;
 }
 .info{
     color:rgb(80, 78, 78);
